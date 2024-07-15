@@ -1,0 +1,46 @@
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd; /* Light gray border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for a floating effect */
+}
+
+.custom-table th, .custom-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.custom-table thead {
+  background-color: #007bff; /* Blue header background */
+  color: #fff; /* White text color */
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray alternate row background */
+}
+
+.custom-table tbody tr:hover {
+  background-color: #e9ecef; /* Hovered row background */
+}
+
+.custom-table button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.custom-table button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .custom-table th, .custom-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
